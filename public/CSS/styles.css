@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  text-align: center;
+}
+
+.btn {
+    padding: 0px;
+}
+
+.input-top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-mid {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.input-bottom {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.icon {
+    width: 50%;
+}
+
