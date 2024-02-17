@@ -35,7 +35,7 @@ app.post("/", function(req, res) {
 
     const url = "https://us17.api.mailchimp.com/3.0/lists/cf900b12ab";
     const options = {
-        auth : "JV11:a2a2d9546e552d68a9d20636ad02af92-us17",
+        auth : 'JV11:' + process.env.API_KEY,
         method : "POST"
     };
 
@@ -63,5 +63,8 @@ app.listen(process.env.PORT || 3000, function () {
     console.log("Server is running on port 3000.");
 });
 
-//API Key - a2a2d9546e552d68a9d20636ad02af92-us17
 //Audience ID - cf900b12ab
+
+
+// New API
+// proecess.env.API_KEY
